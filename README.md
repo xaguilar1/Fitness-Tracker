@@ -14,6 +14,8 @@
 
 This is app that allows users to track their workouts. It tracks different kinds of exercises the user does while updating them with the charts that that this application provides. Some of the tech used for this app is Mongoose, Express, & Node.js.
 
+Find the deployed website here: 
+
 # Installation
 
 To run this application locally, in the event the deployed page fails, please do the following;
