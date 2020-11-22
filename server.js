@@ -31,3 +31,10 @@ app.use(require("./routes/html.js"));
 app.listen(PORT, () => {
   console.log(`App functional at port ${PORT}`);
 });
+
+
+//heroku deployment 
+js
+  if (process.env.NODE_ENV === 'production') {
+    app.use(express.static('client/build'));
+  }
