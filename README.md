@@ -44,4 +44,4 @@ After this step, you can view the local application on your local host address a
 
 ### Got Questions? Contact me here at: 
         
-        mail: xyaguilar77@gmail.com
+        email: xyaguilar77@gmail.com
