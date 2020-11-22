@@ -16,9 +16,9 @@ This is app that allows users to track their workouts. It tracks different kinds
 
 Find the deployed website here: https://powerful-ravine-32479.herokuapp.com
 
-<img width="1034" alt="Screen Shot 2020-11-21 at 8 47 25 AM" src="https://user-images.githubusercontent.com/65522080/99878930-d1ee8e80-2bd6-11eb-9cf8-8a1f44b88684.png">
-<img width="1014" alt="Screen Shot 2020-11-21 at 8 47 34 AM" src="https://user-images.githubusercontent.com/65522080/99878933-d5821580-2bd6-11eb-955a-a1ae93422b27.png">
-<img width="1158" alt="Screen Shot 2020-11-21 at 8 48 04 AM" src="https://user-images.githubusercontent.com/65522080/99878934-d6b34280-2bd6-11eb-94dc-bbc34160ac33.png">
+<img width="885" alt="Screen Shot 2020-11-22 at 2 27 51 PM" src="https://user-images.githubusercontent.com/65522080/99915076-718f4800-2ccf-11eb-8d92-406c4965b4fd.png">
+<img width="904" alt="Screen Shot 2020-11-22 at 2 28 08 PM" src="https://user-images.githubusercontent.com/65522080/99915078-72c07500-2ccf-11eb-91e2-50315fe3a95d.png">
+<img width="895" alt="Screen Shot 2020-11-22 at 2 28 14 PM" src="https://user-images.githubusercontent.com/65522080/99915080-73f1a200-2ccf-11eb-9b7e-e56543bb26b1.png">
 
 
 # Installation
