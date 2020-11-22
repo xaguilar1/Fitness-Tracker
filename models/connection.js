@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 
 const PORT = process.env.PORT || 8080;
 const app = express();
-const Workout = require("./models/userModel");
+const Workout = require("./models/connection");
 app.use(logger("dev"));
 
 app.use(express.urlencoded({ extended: true }));
