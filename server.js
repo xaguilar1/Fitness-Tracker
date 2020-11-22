@@ -3,9 +3,8 @@ const logger = require("morgan");
 const mongoose = require("mongoose");
 
 const PORT = process.env.PORT || 8080;
-
 const app = express();
-
+const Workout = require("./models/connection");
 app.use(logger("dev"));
 
 app.use(express.urlencoded({ extended: true }));
@@ -13,6 +12,7 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
+//Connect to Mongoose database
 mongoose.connect(
   process.env.MONGODB_URI || 'mongodb://localhost/workout',
   {
@@ -22,19 +22,11 @@ mongoose.connect(
     useFindAndModify: false
   }
 );
-
-
-// routes
-app.use(require("./routes/api.js"));
-app.use(require("./routes/html.js"));
+//Running API and HTML routes
+require("./routes/apiRoutes.js")(app);
+require("./routes/htmlRoutes.js")(app);
 
 app.listen(PORT, () => {
-  console.log(`App functional at port ${PORT}`);
+  console.log(`App running on port ${PORT}!`);
 });
 
-
-//heroku deployment 
-js
-  if (process.env.NODE_ENV === 'production') {
-    app.use(express.static('client/build'));
-  }
