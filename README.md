@@ -15,7 +15,7 @@
 This is app that allows users to track their workouts. It tracks different kinds of exercises the user does while updating them with the charts that that this application provides. Some of the tech used for this app is Mongoose, Express, & Node.js.
 
 Find the deployed website here: https://powerful-ravine-32479.herokuapp.com
-*dev issue still in progress with showing chart
+*dev/deployment issue still in progress with showing chart
 
 Walkthrough: https://drive.google.com/file/d/1w7PumQs-MfIHC3jIEQcFeDXZzzeytBJI/view
 
