@@ -41,16 +41,14 @@ const workoutSchema = new Schema({
     }],
 }, {
     toJSON: {
-        // include any virtual properties when data is requested
         virtuals: true
     }
 });
-workoutSchema.virtual("totalDuration").get(function () {
-    // "reduce" array of exercises down to just the sum of their durations
-    return this.exercises.reduce((total, exercise) => {
-      return total + exercise.duration;
-    }, 0);
-  });
-const Workout = mongoose.model("Workout", workoutSchema);
+            workoutSchema.virtual("totalDuration").get(function () {
+            return this.exercises.reduce((total, exercise) => {
+                     return total + exercise.duration;
+                      }, 0);
+                      });
+                    const Workout = mongoose.model("Workout", workoutSchema);
 
 module.exports = Workout;
