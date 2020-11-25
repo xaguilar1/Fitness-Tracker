@@ -24,8 +24,7 @@ module.exports = function (app) {
             res.json(err);
         });
     });
-
-    // create a new workout if not existed
+      
     app.post("/api/workouts", function (req, res) {
         Workout.create({
             day: new Date().setDate(new Date().getDate()),
@@ -38,8 +37,7 @@ module.exports = function (app) {
                 res.json(err);
             });
     });
-
-    // add workout to the workout plan
+    
     app.put("/api/workouts/:id", function (req, res) {
         console.log(req.body)
         Workout.update({_id: req.params.id},{$push: { exercises: req.body }})
@@ -51,4 +49,4 @@ module.exports = function (app) {
         });
 
 })
-}
+};
