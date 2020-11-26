@@ -1,4 +1,4 @@
-const Workout = require("../models/connection");
+const Workout = require("../models/schema");
 module.exports = function (app) {
     app.get("/api/workouts/range", function (req, res) {
         Workout.find({}).then(function (data) {
